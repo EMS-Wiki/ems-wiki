@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Categories on EMS-Wiki</title>
+    <link>//localhost:1313/categories/</link>
+    <description>Recent content in Categories on EMS-Wiki</description>
+    <image>
+      <title>EMS-Wiki</title>
+      <url>//localhost:1313/EMS.png</url>
+      <link>//localhost:1313/EMS.png</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>CC BY-SA 4.0</copyright>
+    <atom:link href="//localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
