@@ -7,7 +7,7 @@ wget https://github.com/gohugoio/hugo/releases/download/v0.167.0/hugo_0.167.0_Li
 tar xvf ./*.tar.gz
 chmod u+x ./hugo
 
-if [ "$CF_PAGES_BRANCH" = "main" ]; then
+if [ "$CF_PAGES_BRANCH" = "development" ]; then
   ./hugo --minify
 else
   ./hugo -b "$CF_PAGES_URL"
